@@ -8,7 +8,7 @@
 #' \dontrun{
 #' }
 #' @export
-#' @importFrom rvest read_html html_elemenets html_text2
+#' @importFrom rvest read_html html_elements html_text2
 #' @importFrom stringr str_locate str_sub str_detect str_split_1
 #' @importFrom tibble as_tibble tibble
 #' @importFrom dplyr mutate row_number if_else filter select bind_rows distinct
