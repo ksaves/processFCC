@@ -55,8 +55,10 @@ rollup_new_FCC <- function(
     tech_exc = c("60"),
     thresh_down = c(25, 25, 50, 100, 100),
     thresh_up = c(3, 5, 10, 10, 100),
-    save_csv = FALSE,
-    wd = getwd()) {
+    save_csv = FALSE
+    #,
+    #wd = getwd()
+    ) {
 
   if (!is.character(get_month))
     stop("Month should be a character")
